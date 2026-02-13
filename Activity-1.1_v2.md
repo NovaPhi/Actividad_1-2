@@ -34,7 +34,31 @@ https://mermaid.js.org/syntax/flowchart.html
 0. Prove by induction that $n^3 + 2n$ is divisible by 3 for all natural numbers $n$.
 
     _**SOLUTION:**_
+
+    **I. Basis:**    
+    If $n = 1$, Then $(n^3 + 2n) \: $%$ \: 3 = 0$ 
+
     
+    $n = 1$
+
+    $(1^3 +2(1) ) \: $%$ \: 3 = 0$
+
+    **II. Inductive Hypothesis:**
+    $n=k$
+
+    $(k^3 + 2k) \: $%$ \: = 0 $
+    
+    **III. Inductive Step**
+    $n = k+1$
+    
+    $((k+1)^3 + 2(k+1)) \: $%$ \: 3 = 0$
+    
+    $(k^3 + 3k^2 + 5k + 3) \: $%$ \: 3= 0$
+
+    $((k^3 + 2k) + 3(k^2 + k + 1)) \: $%$ \: 3 =0$
+
+    $n = 1$
+    $3(1^3 + 1 + 1) \: $%$ \: 3$ = 0
 
 
 0. Prove by induction on $n$ that:
