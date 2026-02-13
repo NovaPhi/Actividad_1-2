@@ -19,16 +19,22 @@ https://mermaid.js.org/syntax/flowchart.html
 
     _**SOLUTION:**_
 
+    $S = \{2, 4, 6 , 8, 10, ... ,\N\}$
+    
+    **I. Basis:**
+    $x = 2 \in S$ 
 
+    **II. Recursive Step:**
+    If $n \in S$, Then $n+2 \in S$
 
-0. Give a recursive definition of the multiplication, using only addition and the successor function.
-
-    _**SOLUTION:**_
+    **III. Closure:**
+    $n \in S$ only if it can be obtained from the basis using a finite number of the recursive step
 
 
 0. Prove by induction that $n^3 + 2n$ is divisible by 3 for all natural numbers $n$.
 
     _**SOLUTION:**_
+    
 
 
 0. Prove by induction on $n$ that:
