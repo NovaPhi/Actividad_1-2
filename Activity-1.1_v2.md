@@ -59,6 +59,7 @@ https://mermaid.js.org/syntax/flowchart.html
 
     $n = 1$
     $3(1^3 + 1 + 1) \: $%$ \: 3$ = 0
+    □
 
 
 0. Prove by induction on $n$ that:
@@ -66,10 +67,24 @@ https://mermaid.js.org/syntax/flowchart.html
     $\sum_{i=0}^{n} 2^i = 2^{n + 1} - 1$
 
     _**SOLUTION:**_
+    **I. Basis:**    
+    if $n=0,$ then $2^{0+1}-1=1$
+
+    **II. Inductive Hypothesis:**
+    $n=k$
+    $\sum_{i=0}^{k}2^i=2^{k+1}-1$
+    
+    **III. Inductive Step**
+    $n=k+1$
+    $\sum_{i=0}^{k+1}2^i=2^{(k+1)+1}-1$
+    $\sum_{i=0}^{k}2^i+2^{k+1}=2^{(k+1)+1}-1$
+    $2^{k+1}+2^{k+1}-1=2^{(k+1)+1}-1$
+    $2^1\cdot2^{k+1}-1=2^{(k+1)+1}-1$
+    $2^{(k+1)+1}-1=2^{(k+1)+1}-1$
+    □
 
 
-
-
+<!--
 0. Using the tree below, give the values of each of the items:
 
     ```mermaid
@@ -118,3 +133,5 @@ https://mermaid.js.org/syntax/flowchart.html
     f. the vertices children of x10
 
     `x17, x18`
+
+    --->
