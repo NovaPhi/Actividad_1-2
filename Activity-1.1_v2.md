@@ -84,7 +84,7 @@ https://mermaid.js.org/syntax/flowchart.html
     □
 
 
-<!--
+
 0. Using the tree below, give the values of each of the items:
 
     ```mermaid
@@ -133,5 +133,3 @@ https://mermaid.js.org/syntax/flowchart.html
     f. the vertices children of x10
 
     `x17, x18`
-
-    --->
