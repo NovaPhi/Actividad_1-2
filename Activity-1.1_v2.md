@@ -10,7 +10,7 @@ https://mermaid.js.org/syntax/flowchart.html
 
 ## Names:
 - Luis Jaime Arias
-- name2
+- Pablo Sedano Morlett
 
 
 ## Exercises:
@@ -97,24 +97,24 @@ https://mermaid.js.org/syntax/flowchart.html
 
     a. the depth of the tree
 
-    ``
+    `4`
 
     b. the ancestors of x18
 
-    ``
+    `x10, x4, x1`
 
     c. the internal nodes of the tree
 
-    ``
+    `x1, x2, x3, x4, x5, x7, x9, x10, x13, x16`
 
     d. the length of the path from x3 to x16
 
-    ``
+    `2`
 
     e. the vertex that is the parent of x13
 
-    ``
+    `x7`
 
     f. the vertices children of x10
 
-    ``
+    `x17, x18`
