@@ -46,12 +46,20 @@ https://mermaid.js.org/syntax/flowchart.html
     **II. Inductive Hypothesis:**
     $n=k$
 
-    $(k^3 + 2k) \: $%$ \: = 0 $
+    $(k^3 + 2k) \: $%$ \: 3 = 0 $
     
     **III. Inductive Step**
     $n = k+1$
     
     $((k+1)^3 + 2(k+1)) \: $%$ \: 3 = 0$
+
+    $((k^3+1)(k^3+1)^2) + 2(k+1) \: $%$ \: 3 = 0$
+
+    $(k^3+1)(k^3+1)(k^3+1) + 2(k+1) \: $%$ \: 3 = 0$
+
+    $(k^3 + 3k^2 + 3k + 1) + 2(k+1) \: $%$ \: 3=0$
+
+    $(k^3+3k^2+3k+1)+(2k+2) \: $%$ \: 3=0$
     
     $(k^3 + 3k^2 + 5k + 3) \: $%$ \: 3= 0$
 
@@ -59,7 +67,7 @@ https://mermaid.js.org/syntax/flowchart.html
 
     $n = 1$
     $3(1^3 + 1 + 1) \: $%$ \: 3$ = 0
-    □
+    
 
 
 0. Prove by induction on $n$ that:
