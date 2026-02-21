@@ -15,6 +15,9 @@ For example: $a$, $aaaaa$ and $aabaaaba$ belong to the set, but $bab$, $ababba$ 
 
     _**SOLUTION:**_
 
+I. Basis: $a \in L$ 
+II. Recursive Step: If $s \in L$ then $sa \in L$ and $sba \in L$
+III. Closure: A string $s \in L$ only if it can be obtained from the basis using a finite number of applications of the recursive step.
 
 0. Let $X = \{aa, cb\}$ and $Y = \{\lambda, b, ac\}$.
 
